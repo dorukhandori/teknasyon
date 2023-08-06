@@ -1,0 +1,51 @@
+# teknasyon automation
+
+This is a Java Maven mobile automation project developed using the Appium and Selenium frameworks. The project follows Object-Oriented Programming (OOP) principles and emphasizes code readability, maintainability, and reusability. The project structure is well-defined and ready to be extended in terms of architecture.
+
+## Getting Started
+
+### Prerequisites
+- Java JDK installed on your machine
+- Maven installed on your machine
+- Appium server installed and running
+
+### Installation
+1. Clone the repository from Git using the command:
+```
+git clone <repository-url>
+```
+2. Navigate to the project root directory:
+```
+cd teknasyon-automation
+```
+3. Install the project dependencies using Maven:
+```
+mvn clean install
+```
+
+## Usage
+1. Open the project in your favorite IDE (e.g., Eclipse, IntelliJ).
+2. Configure the desired capabilities and test settings in the `config.properties` file.
+3. Run the test cases using the test runner class `TestRunner.java`.
+
+## Contributing
+Contributions are encouraged! If you'd like to contribute to this project, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit and push your changes to your branch.
+4. Create a pull request, explaining the changes you've made.
+
+## Assertions
+In this project, we use assertions provided by the TestNG framework to validate the expected results. Assertions are crucial for ensuring the correctness of the test cases and identifying any defects or issues. It is recommended to add assertions for each test step to verify the expected behavior.
+
+## Code Reusability
+To ensure code reusability, we have implemented the Page Object Model (POM) design pattern. This design pattern promotes creating separate classes for each page or screen of the application, encapsulating the elements and actions related to that specific page. This approach not only enhances code modularity but also improves maintainability and readability.
+
+## Git Usage
+Git is used for version control and collaboration in this project. It is recommended to use Git to manage your code changes, create branches for new features or bug fixes, and create pull requests to merge your changes into the main branch. Make sure to follow the Git workflow and commit messages conventions to keep the codebase clean and organized.
+
+## Naming Convention
+To improve code readability and maintainability, we follow a consistent naming convention throughout the project. Class names should be in CamelCase, method names should be in camelCase, and variables should be in lowercase with words separated by underscores (_). It is important to choose meaningful and descriptive names that accurately reflect the purpose and functionality of each element.
+
+## Universal Software Standards (OOP)
+This project strictly adheres to universal software standards, especially Object-Oriented Programming (OOP) principles. OOP promotes code organization, modularity, and reusability through concepts such as encapsulation, inheritance, and polymorphism. By following these standards, we ensure that the codebase is maintainable, scalable, and easily comprehensible by other developers.
