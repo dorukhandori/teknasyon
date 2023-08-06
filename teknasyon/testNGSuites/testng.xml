@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.teknasyonAutomation.ReportUtils.listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="Register Tests">
+        <classes>
+            <class name="org.teknasyonAutomation.actionTabTest">
+
+            </class>
+        </classes>
+    </test>
+    <test
+            name="Login Tests">
+    <classes>
+            <class name="org.teknasyonAutomation.baseTest">
+            </class>
+        </classes>
+    </test>
+    <test
+            name="Forgot Password Test">
+        <classes>
+            <class name="org.RegressionTests.ForgotPasswordTest">
+            </class>
+        </classes>
+    </test>
+</suite>
